@@ -106,7 +106,12 @@ function setup() {
   Laughs = random(ha);
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function draw() {
+  
   background(br, bg, bb);
   textSize(20)
   fill(0)
